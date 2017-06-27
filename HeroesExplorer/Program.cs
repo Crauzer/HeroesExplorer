@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using HeroesExplorerLib.JMP;
-using HeroesExplorerLib.X;
+﻿using HeroesExplorerLib.IO.X;
 
 namespace HeroesExplorer
 {
@@ -12,8 +6,8 @@ namespace HeroesExplorer
     {
         static void Main(string[] args)
         {
-            XFile xfile = new XFile("jiutoulong.x");
-            xfile.ExtractFiles("xfile");
+            XFile xfile = new XFile("029.x");
+            xfile.ExtractFiles("029");
         }
     }
 }

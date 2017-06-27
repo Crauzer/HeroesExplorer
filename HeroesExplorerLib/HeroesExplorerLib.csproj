@@ -41,11 +41,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Compression.cs" />
-    <Compile Include="JMP\JMPEntry.cs" />
-    <Compile Include="JMP\JMPFile.cs" />
+    <Compile Include="Helpers\Structures.cs" />
+    <Compile Include="IO\JMP\JMPEntry.cs" />
+    <Compile Include="IO\JMP\JMPFile.cs" />
+    <Compile Include="IO\MAP\MAPFile.cs" />
+    <Compile Include="IO\MAP\MAPTexture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="X\XFile.cs" />
-    <Compile Include="X\XFlag.cs" />
+    <Compile Include="IO\X\XBone.cs" />
+    <Compile Include="IO\X\XDefiitions.cs" />
+    <Compile Include="IO\X\XFile.cs" />
+    <Compile Include="IO\X\XFlag.cs" />
+    <Compile Include="IO\X\XGeometry.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

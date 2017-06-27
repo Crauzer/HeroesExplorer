@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace HeroesExplorerLib.X
+namespace HeroesExplorerLib.IO.X
 {
     [DebuggerDisplay("{ID}")]
     public class XFlag
